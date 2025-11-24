@@ -66,6 +66,10 @@ npm install
 npx cucumber-js tests/features/login.feature --tags "@negativeLogin"
 ```
 
+for custom report:
+```
+npm install puppeteer --save-dev
+```
 
 or use tag-based filtering:
 ```
